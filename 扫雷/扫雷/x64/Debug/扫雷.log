@@ -1,0 +1,6 @@
+﻿  game.c
+D:\Dai  Ma\扫雷\扫雷\game.c(58,16): warning C4028: 形参 1 与声明不一致
+D:\Dai  Ma\扫雷\扫雷\game.c(58,58): warning C4028: 形参 3 与声明不一致
+D:\Dai  Ma\扫雷\扫雷\game.c(58,6): warning C4029: 声明的形参表不同于定义
+D:\Dai  Ma\扫雷\扫雷\game.c(184,4): warning C4098: “dinf”:“void”函数返回值
+  扫雷.vcxproj -> D:\Dai  Ma\扫雷\x64\Debug\扫雷.exe
