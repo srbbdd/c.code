@@ -54,10 +54,13 @@ int main()
 {
     int x = 0;
     int y = 0;
+    //输入坐标
     scanf("%d %d", &x, &y);
     int x1 = 0;
     int y1 = 0;
+    //输入金币坐标
     scanf("%d %d", &x1, &y1);
+    //判断金币位置
     if (x == x1 && y1 - 1 == y)
     {
         printf("u");
