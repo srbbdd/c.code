@@ -1,0 +1,4 @@
+﻿  test.c
+D:\Dai  Ma\2026-2\2026-2-3\test.c(12,51): warning C4028: 形参 1 与声明不一致
+D:\Dai  Ma\2026-2\2026-2-3\test.c(12,71): warning C4028: 形参 2 与声明不一致
+  2026-2-3.vcxproj -> D:\Dai  Ma\2026-2\2026-2-3\x64\Debug\2026-2-3.exe
