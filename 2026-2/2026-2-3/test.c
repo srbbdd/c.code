@@ -1,20 +1,43 @@
 #include "test.h"
-contacts* increase_contacts(contacts* add)
+contacts* indrease(contacts* add, contacts* arr,int* count,int* zl)
+{
+	contacts* ret = NULL;
+	if (*count == 0)
+	{
+		ret=(contacts*)realloc(add,((*zl)+ 2) * sizeof(contacts));
+		assert(ret);
+		*count += 2;
+	}
+	return ret;
+}
+contacts* increase_contacts(contacts* add,contacts* arr,int* count,int* zl)
 {
 	printf("请输入联系人的姓名，年龄，性别，电话，地址\n");
-	while (scanf("%s %d %s %d %s", add->name, &add->old, add->gender, &add->call, add->address) != EOF)
+	while (scanf("%s %d %s %d %s", arr->name, &arr->old, arr->gender, &arr->call, arr->address) != EOF)
 	{
-		add++;
+		(*count)--;
+		printf("当前剩余容量%d\n", *count);
+		contacts* ret = indrease(add,arr,count,zl);
+		if (ret != NULL)
+		{
+			add = ret;
+			arr = ret + (*zl);
+			*zl += 2;
+		}
+		else
+		{
+			arr++;
+		}
 	}
 	system("cls");
 	return add;
 }
-void reveal_already_have_contacts(const contacts* add,const contacts* arr)
+void reveal_already_have_contacts(const contacts* add, const contacts* arr)
 {
 	int i = 1;
 	while (add < arr)
 	{
-		printf("%d.姓名:%s\n  年龄:%d\n  性别:%s\n  电话:%d\n  地址:%s\n",i,add->name, add->old, add->gender, add->call, add->address);
+		printf("%d.姓名:%s\n  年龄:%d\n  性别:%s\n  电话:%d\n  地址:%s\n", i, add->name, add->old, add->gender, add->call, add->address);
 		add++;
 		i++;
 		printf("\n");
@@ -24,7 +47,7 @@ int compar(const void* a1, const void* a2)
 {
 	return ((*(contacts*)a1).old - (*(contacts*)a2).old);
 }
-void reverse(void* a1,void* a2,int sz)
+void reverse(void* a1, void* a2, int sz)
 {
 	int i = 0;
 	char* p1 = (char*)a1;
@@ -45,11 +68,11 @@ void my_qsort(void* add, void* arr, int sz, int(*compar)(const void*, const void
 	char* j = add;
 	char* p = add;
 	char* p2 = arr;
-    
-	for (j;j<p2-sz-(i*sz);i++)
+
+	for (j; j < p2 - sz - (i * sz); i++)
 	{
 		int k = 0;
-		for (p ; p < (p2 - sz -(k*sz) ); k++)
+		for (p; p < (p2 - sz - (k * sz)); k++)
 		{
 			if (compar(p + (k * sz), p + ((k + 1) * sz)) > 0)
 			{
@@ -62,16 +85,17 @@ void onward(contacts* add, contacts* arr, int sz)
 {
 	while (add < arr)
 	{
-		*add = *(add+1);
+		*add = *(add + 1);
 		add++;
 	}
 }
-contacts* delet_contacts(contacts* add, contacts* arr)
+contacts* delet_contacts(contacts* add, contacts* arr,int* count)
 {
 	int i = 0;
 	printf("请输入需要删除的联系人\n");
 	reveal_already_have_contacts(add, arr);
-	while (scanf("%d", &i) != 0&&i!=EOF)
+	printf("当前剩余容量%d\n", *count);
+	while (scanf("%d", &i) != 0 && i != EOF)
 	{
 		i -= 1;
 		if (add[i].old != 0)
@@ -79,9 +103,11 @@ contacts* delet_contacts(contacts* add, contacts* arr)
 			onward(add + i, arr, sizeof(add[i]));
 			system("cls");
 			arr--;
+			(*count)++;
+			printf("当前剩余容量%d\n", *count);
 			reveal_already_have_contacts(add, arr);
 		}
-		else if (i!=EOF)
+		else if (i != EOF)
 		{
 			printf("编号不合法\n");
 		}
@@ -92,7 +118,7 @@ contacts* delet_contacts(contacts* add, contacts* arr)
 	}
 	return arr;
 }
-void locat_contacts(contacts* add,contacts* arr)
+void locat_contacts(contacts* add, contacts* arr)
 {
 	printf("请输入需要查找的姓名\n");
 	char name1[7];
@@ -118,7 +144,7 @@ void locat_contacts(contacts* add,contacts* arr)
 		}
 	}
 }
-void modify_contacts(contacts* add,contacts* arr)
+void modify_contacts(contacts* add, contacts* arr)
 {
 	int i = 0;
 	int a = 0;
@@ -128,7 +154,7 @@ void modify_contacts(contacts* add,contacts* arr)
 		scanf("%d", &i);
 		printf("请输入需要修改的内容\n1:姓名\n2:年龄\n3:性别\n4:电话\n5:地址\n6:全都要\n输入0退出");
 		scanf("%d", &a);
-		p += i-1;
+		p += i - 1;
 		switch (a)
 		{
 		case 0:

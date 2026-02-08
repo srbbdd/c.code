@@ -1,8 +1,13 @@
 #include "test.h"
 int main()
 {
-	contacts add[100] = { 0 };
+	contacts* add =(contacts*)calloc(1,sizeof(contacts));
+	int count = 1;
+	/*contacts* ret = (contacts*)calloc(add, sizeof(contacts));
+	assert(ret);
+	add = ret;*/
 	contacts* arr = add;
+	int zl = 1;
 	int a = 0;
 	do
 	{
@@ -10,40 +15,42 @@ int main()
 		scanf("%d", &a);
 		switch (a)
 		{
-		    case 0:
+		case 0:
+			free(add);
 			break;
-			case 1:
-			{
-				system("cls");
-				arr = increase_contacts(arr);
-				my_qsort(add,arr,sizeof (add[0]),compar);
-				break;
-			}
-			case 2:
-			{
-				system("cls");
-				arr = delet_contacts(add,arr);
-				break;
-			}
-			case 3:
-			{
-				system("cls");
-				locat_contacts(add,arr);
-				break;
-			}
-			case 4:
-			{
-				system("cls");
-				reveal_already_have_contacts(add, arr);
-				modify_contacts(add,arr);
-				break;
-			}
-			case 5:
-			{
-				system("cls");
-				reveal_already_have_contacts(add,arr);
-				break;
-			}
+		case 1:
+		{
+			system("cls");
+			add=increase_contacts(add,arr,&count,&zl);
+			arr = add + (zl-count);
+			my_qsort(add, arr, sizeof(add[0]), compar);
+			break;
+		}
+		case 2:
+		{
+			system("cls");
+			arr = delet_contacts(add, arr,&count);
+			break;
+		}
+		case 3:
+		{
+			system("cls");
+			locat_contacts(add, arr);
+			break;
+		}
+		case 4:
+		{
+			system("cls");
+			reveal_already_have_contacts(add, arr);
+			modify_contacts(add, arr);
+			break;
+		}
+		case 5:
+		{
+			system("cls");
+			reveal_already_have_contacts(add, arr);
+			break;
+		}
 		}
 	} while (a);
 	return 0;
