@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dai  Ma\\2026-2\\2026-2-10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F47836B8-DE8F-4E11-AAC9-2081A3AA49F6}|2026-2-10.vcxproj|D:\\Dai  Ma\\2026-2\\2026-2-10\\xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F47836B8-DE8F-4E11-AAC9-2081A3AA49F6}|2026-2-10.vcxproj|solutionrelative:xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1582,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xx.c",
+              "DocumentMoniker": "D:\\Dai  Ma\\2026-2\\2026-2-10\\xx.c",
+              "RelativeDocumentMoniker": "xx.c",
+              "ToolTip": "D:\\Dai  Ma\\2026-2\\2026-2-10\\xx.c",
+              "RelativeToolTip": "xx.c",
+              "ViewState": "AgIAAHoAAAAAAAAAAADwv5QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-10T04:17:54.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
