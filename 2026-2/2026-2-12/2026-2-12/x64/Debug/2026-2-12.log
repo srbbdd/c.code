@@ -1,0 +1,10 @@
+﻿  xx.c
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(98,18): warning C4047: “==”:“int”与“char *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(104,5): warning C4047: “return”:“char *”与“int”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(114,17): warning C4047: “函数”:“char *”与“int”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(114,17): warning C4024: “seek”: 形参和实参 2 的类型不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(114,7): warning C4047: “=”:“int”与“char *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(115,17): warning C4047: “函数”:“char *”与“int”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(115,17): warning C4024: “seek”: 形参和实参 2 的类型不同
+D:\Dai  Ma\2026-2\2026-2-12\xx.c(115,7): warning C4047: “=”:“int”与“char *”的间接级别不同
+  2026-2-12.vcxproj -> D:\Dai  Ma\2026-2\2026-2-12\x64\Debug\2026-2-12.exe
