@@ -1,14 +1,37 @@
 #include "test.h"
-contacts* indrease(contacts* add, contacts* arr,int* count,int* zl)
+contacts* indrease(contacts* add, contacts* arr, int* count, int* zl)
 {
 	contacts* ret = NULL;
 	if (*count == 0)
 	{
-		ret=(contacts*)realloc(add,((*zl)+ 2) * sizeof(contacts));
+		ret = (contacts*)realloc(add, ((*zl) + 2) * sizeof(contacts));
 		assert(ret);
 		*count += 2;
 	}
 	return ret;
+}
+contacts* du_archive(contacts* add, contacts* arr, int* count, int* zl)
+{
+	FILE* p1 = fopen("contacts.txt", "rb");
+	assert(p1);
+	while (fread(arr, sizeof(contacts), 1, p1)!=0)
+	{
+		(*count)--;
+		contacts* ret = indrease(add, arr, count, zl);
+		if (ret != NULL)
+		{
+			add = ret;
+			arr = ret + (*zl);
+			*zl += 2;
+		}
+		else
+		{
+			arr++;
+		}
+	}
+	fclose(p1);
+	p1 = NULL;
+	return add;
 }
 contacts* increase_contacts(contacts* add,contacts* arr,int* count,int* zl)
 {
@@ -94,7 +117,7 @@ contacts* delet_contacts(contacts* add, contacts* arr,int* count)
 	int i = 0;
 	printf("请输入需要删除的联系人\n");
 	reveal_already_have_contacts(add, arr);
-	printf("当前剩余容量%d\n", *count);
+	printf("当前剩余容量%d\n输入0退出\n", *count);
 	while (scanf("%d", &i) != 0 && i != EOF)
 	{
 		i -= 1;
@@ -104,7 +127,7 @@ contacts* delet_contacts(contacts* add, contacts* arr,int* count)
 			system("cls");
 			arr--;
 			(*count)++;
-			printf("当前剩余容量%d\n", *count);
+			printf("当前剩余容量%d\n输入0退出\n", *count);
 			reveal_already_have_contacts(add, arr);
 		}
 		else if (i != EOF)
@@ -202,4 +225,17 @@ void modify_contacts(contacts* add, contacts* arr)
 		system("cls");
 		reveal_already_have_contacts(add, arr);
 	} while (a);
+}
+void archive(const contacts* add,int zl)
+{
+	assert(add);
+	FILE* p1 = fopen("contacts.txt", "wb");
+	assert(p1);
+	int i = 0;
+	for (i = 0; i < zl; i++)
+	{
+		fwrite(add + i, sizeof(contacts), 1, p1);
+	}
+	fclose(p1);
+	p1 = NULL;
 }

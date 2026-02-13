@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{5F35BC5C-B9AE-42C7-AB2E-98EE10681E4E}|2026-2-3.vcxproj|solutionrelative:xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F35BC5C-B9AE-42C7-AB2E-98EE10681E4E}|2026-2-3.vcxproj|D:\\Dai  Ma\\2026-2\\2026-2-3\\test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F35BC5C-B9AE-42C7-AB2E-98EE10681E4E}|2026-2-3.vcxproj|solutionrelative:test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -25,21 +21,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1582,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "test.h",
-              "DocumentMoniker": "D:\\Dai  Ma\\2026-2\\2026-2-3\\test.h",
-              "RelativeDocumentMoniker": "test.h",
-              "ToolTip": "D:\\Dai  Ma\\2026-2\\2026-2-3\\test.h",
-              "RelativeToolTip": "test.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-03T04:06:35.099Z",
-              "IsPinned": true
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -48,7 +31,7 @@
               "RelativeDocumentMoniker": "xx.c",
               "ToolTip": "D:\\Dai  Ma\\2026-2\\2026-2-3\\xx.c",
               "RelativeToolTip": "xx.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-08T04:33:50.303Z"
             },
@@ -60,20 +43,20 @@
               "RelativeDocumentMoniker": "test.c",
               "ToolTip": "D:\\Dai  Ma\\2026-2\\2026-2-3\\test.c",
               "RelativeToolTip": "test.c",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-07T05:15:09.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "stdio.h",
               "DocumentMoniker": "D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "RelativeDocumentMoniker": "..\\..\\..\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ToolTip": "D:\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "RelativeToolTip": "..\\..\\..\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ViewState": "AgIAAOMFAAAAAAAAAAAAACsEAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcGAAAAAAAAAAAAACsEAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-03T11:29:28.198Z"
             }

@@ -9,6 +9,8 @@ int main()
 	contacts* arr = add;
 	int zl = 1;
 	int a = 0;
+	add = du_archive(add,arr,&count,&zl);//读取数据
+	arr = add + (zl - count);
 	do
 	{
 		printf("输入0: 退出\n输入1: 增加联系人\n输入2: 删除联系人\n输入3: 查找联系人\n输入4: 修改联系人\n输入5: 显示已有联系人\n");
@@ -16,6 +18,7 @@ int main()
 		switch (a)
 		{
 		case 0:
+			archive(add,zl-count);//保存
 			free(add);
 			break;
 		case 1:
