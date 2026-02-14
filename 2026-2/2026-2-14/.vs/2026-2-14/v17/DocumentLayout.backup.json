@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dai  Ma\\2026-2\\2026-2-14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06AE0605-4633-4FDF-98D9-01EF28CFA3F8}|2026-2-14.vcxproj|D:\\Dai  Ma\\2026-2\\2026-2-14\\xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{06AE0605-4633-4FDF-98D9-01EF28CFA3F8}|2026-2-14.vcxproj|solutionrelative:xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06AE0605-4633-4FDF-98D9-01EF28CFA3F8}|2026-2-14.vcxproj|D:\\Dai  Ma\\2026-2\\2026-2-14\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{06AE0605-4633-4FDF-98D9-01EF28CFA3F8}|2026-2-14.vcxproj|solutionrelative:add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1582,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "add.c",
+              "DocumentMoniker": "D:\\Dai  Ma\\2026-2\\2026-2-14\\add.c",
+              "RelativeDocumentMoniker": "add.c",
+              "ToolTip": "D:\\Dai  Ma\\2026-2\\2026-2-14\\add.c",
+              "RelativeToolTip": "add.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-14T06:29:53.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xx.c",
+              "DocumentMoniker": "D:\\Dai  Ma\\2026-2\\2026-2-14\\xx.c",
+              "RelativeDocumentMoniker": "xx.c",
+              "ToolTip": "D:\\Dai  Ma\\2026-2\\2026-2-14\\xx.c",
+              "RelativeToolTip": "xx.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-14T04:07:22.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
