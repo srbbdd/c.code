@@ -1,0 +1,8 @@
+﻿  xx.c
+D:\Dai  Ma\2026-2\2026-2-19\xx.c(34,9): warning C4047: “=”:“int”与“void *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-19\xx.c(35,9): warning C4047: “=”:“int”与“void *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-19\xx.c(41,9): warning C4047: “=”:“int”与“void *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-19\xx.c(42,9): warning C4047: “=”:“int”与“void *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-19\xx.c(46,15): warning C4047: “!=”:“int”与“void *”的间接级别不同
+D:\Dai  Ma\2026-2\2026-2-19\xx.c(46,32): warning C4047: “!=”:“int”与“void *”的间接级别不同
+  2026-2-19.vcxproj -> D:\Dai  Ma\2026-2\2026-2-19\x64\Debug\2026-2-19.exe
