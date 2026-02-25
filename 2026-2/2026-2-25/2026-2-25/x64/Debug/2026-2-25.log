@@ -1,0 +1,8 @@
+﻿  xx.c
+D:\Dai  Ma\2026-2\2026-2-25\xx.h(9,9): warning C4005: “max”: 宏重定义
+  (编译源文件“xx.c”)
+      D:\Windows Kits\10\Include\10.0.26100.0\ucrt\stdlib.h(1282,17):
+      参见“max”的前一个定义
+  
+D:\Dai  Ma\2026-2\2026-2-25\xx.c(4,8): warning C4047: “初始化”:“Sqdate *”与“int”的间接级别不同
+  2026-2-25.vcxproj -> D:\Dai  Ma\2026-2\2026-2-25\x64\Debug\2026-2-25.exe
