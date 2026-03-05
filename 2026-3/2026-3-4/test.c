@@ -85,7 +85,7 @@ void ListInsert(ListNode* plist, DateType x,DateType y)
 	newnode->next = p1;
 	p1->prev = newnode;
 }
-void ListErase(ListNode* plist, DateType x)
+void ListErase(ListNode* plist,DateType x)
 {
 	ListNode* p1 = ListFind(plist,x);
 	ListNode* p2 = p1->prev;
@@ -93,4 +93,17 @@ void ListErase(ListNode* plist, DateType x)
 	p2->next = p3;
 	p3->prev = p2;
 	free(p1);
+}
+void LsitDestory(ListNode** plist)
+{
+	ListNode* p1 = (*plist)->next;
+	while (p1 != (*plist))
+	{
+		ListNode* p2 = p1->next;
+		free(p1);
+		p1 = p2;
+	}
+	free((*plist));
+	*plist = NULL;
+	return 0;
 }

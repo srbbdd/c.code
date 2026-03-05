@@ -10,7 +10,7 @@ typedef struct ListNode
 	DateType date;
 }ListNode;
 ListNode* ListInit();
-void LsitDestory(ListNode* plist);
+void LsitDestory(ListNode** plist);
 void ListPushBack(ListNode* plist, DateType x);
 void ListPushFront(ListNode* plist, DateType x);
 
