@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dai  Ma\\2026-3\\2026-3-13\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09849F63-90CD-4DD1-B38D-CE2787C74477}|2026-3-13.vcxproj|D:\\Dai  Ma\\2026-3\\2026-3-13\\xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09849F63-90CD-4DD1-B38D-CE2787C74477}|2026-3-13.vcxproj|solutionrelative:xx.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1582,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xx.c",
+              "DocumentMoniker": "D:\\Dai  Ma\\2026-3\\2026-3-13\\xx.c",
+              "RelativeDocumentMoniker": "xx.c",
+              "ToolTip": "D:\\Dai  Ma\\2026-3\\2026-3-13\\xx.c",
+              "RelativeToolTip": "xx.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-13T12:28:10.914Z",
+              "EditorCaption": ""
             }
           ]
         }
