@@ -1,0 +1,5 @@
+﻿  xx.c
+D:\Dai  Ma\2026-3\2026-3-20\xx.c(27,12): warning C4013: “abs”未定义；假设外部返回 int
+D:\Dai  Ma\2026-3\2026-3-20\xx.c(33,9): warning C4098: “DestoryTree”:“void”函数返回值
+D:\Dai  Ma\2026-3\2026-3-20\xx.c(36,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+D:\Dai  Ma\2026-3\2026-3-20\xx.c(35,5): warning C4550: 表达式计算为缺少参数列表的函数
