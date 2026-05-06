@@ -1,0 +1,7 @@
+﻿  xx.cpp
+D:\Dai  Ma\2026-5\2026-5-6\xx.cpp(1,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\Dai  Ma\2026-5\2026-5-6\add.h(1,13): warning C4081: 应输入“newline”；找到“;”
+  (编译源文件“xx.cpp”)
+  
+D:\Dai  Ma\2026-5\2026-5-6\xx.cpp(5,9): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  2026-5-6.vcxproj -> D:\Dai  Ma\2026-5\2026-5-6\x64\Debug\2026-5-6.exe
