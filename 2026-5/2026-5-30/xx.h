@@ -29,6 +29,7 @@ public:
 	void Mod();
 	void seek();
 	void sort();
+	void Clean_file();
 	~Payroll();
 };
 class Employee :public Person

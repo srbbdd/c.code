@@ -232,3 +232,32 @@ void Payroll::sort()
 		}
 	}
 }
+void Payroll::Clean_file()
+{
+	int a = 0;
+	cout << "请输入1确认清空\n";
+	cin >> a;
+	if (a)
+	{
+		ofstream p1(file, ios::trunc);//打开方式为创建，如果文件存在就删掉重新创建
+		p1.close();
+		if (this->woker != NULL)
+		{
+			for (int i = 0; i < this->mount; i++)
+			{
+				if (this->woker[i] != NULL)
+				{
+					delete this->woker[i];
+				}
+			}
+			delete this->woker;
+			this->woker = NULL;
+			this->mount = 0;
+			this->fileempty = true;
+		}
+	}
+	else
+	{
+		return;
+	}
+}

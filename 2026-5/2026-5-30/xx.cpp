@@ -31,6 +31,7 @@ int main()
 			p1.sort();
 			break;
 		case 7:
+			p1.Clean_file();
 			break;
 		}
 	} while (a);
