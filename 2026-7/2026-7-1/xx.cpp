@@ -56,9 +56,27 @@ void test1()
 	deque<int>d4(d3);//拷贝构造
 	printd(d4);
 }
+void test2()
+{
+	deque<int> v1;
+	for (int i = 0; i < 10; i++)
+	{
+		v1.push_back(i);
+	}
+	printd(v1);
+	deque<int> v2 = v1;
+	printd(v2);
+	deque<int> v3;
+	v3.assign(v1.begin(),v1.end());//区间 
+	printd(v3);
+	deque<int> v4;
+	v4.assign(10, 100);
+	printd(v4);
+}
 int main()
 {
-	test();
-	test1();
+	//test();
+	//test1();
+	test2();//赋值
 	return 0;
 }
