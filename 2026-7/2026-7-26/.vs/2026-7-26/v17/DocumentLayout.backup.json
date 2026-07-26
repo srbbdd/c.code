@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dai  Ma\\2026-7\\2026-7-26\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6ED230C-E4FF-4433-A5E4-08ECAE4A18F7}|2026-7-26.vcxproj|D:\\Dai  Ma\\2026-7\\2026-7-26\\xx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B6ED230C-E4FF-4433-A5E4-08ECAE4A18F7}|2026-7-26.vcxproj|solutionrelative:xx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6ED230C-E4FF-4433-A5E4-08ECAE4A18F7}|2026-7-26.vcxproj|D:\\C\\VC\\TOOLS\\MSVC\\14.44.35207\\INCLUDE\\XUTILITY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "xutility",
+              "DocumentMoniker": "D:\\c\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "RelativeDocumentMoniker": "..\\..\\..\\c\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "ToolTip": "D:\\c\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "RelativeToolTip": "..\\..\\..\\c\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "ViewState": "AgIAABkGAAAAAAAAAAAqwDUGAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-26T10:28:03.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xx.cpp",
+              "DocumentMoniker": "D:\\Dai  Ma\\2026-7\\2026-7-26\\xx.cpp",
+              "RelativeDocumentMoniker": "xx.cpp",
+              "ToolTip": "D:\\Dai  Ma\\2026-7\\2026-7-26\\xx.cpp*",
+              "RelativeToolTip": "xx.cpp*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-26T10:13:58.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
